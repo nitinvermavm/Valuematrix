@@ -1,0 +1,70 @@
+1111111
+
+Youtube - https://www.youtube.com/playlist?list=PLpVPFODLvNXNgryYPzYTEN4dllRep3Mgq
+
+
+
+CSS Selector -- Cypress --- Best Support CSS Selector
+
+1. If you are aware about the classname attribute - .classname. ---> .oxd-input.oxd-input--active
+2. If you are aware about the ID attribute - #id
+3. If you are aware about attribute and value of that attribute ---> [attribute = 'value']
+4. If you are aware about attribute and value of that attribute along with tag name ---> 
+input[attribute = 'value']
+5. If you are aware about classname and tag ---> tag.classname
+6. If you are aware about ID and tag ---> tag#id
+7. You can use cypress inspector for getting the CSS Selector
+
+[class="oxd-form-row"] [class="oxd-form-row"]
+
+<input data-v-1f99f73c="" class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="">
+
+
+Xpath Selector
+
+Precondition - for use for xpath
+
+https://www.npmjs.com/package/cypress-xpath
+
+npm install -D cypress-xpath
+
+
+
+
+installed - cropath extesion for xpath 
+selector hub 
+
+X path is clasified in two categoires 
+1. Relative Path // (start with double slash) 
+2. Absolute path / (start with single slash) right click on the element and select option for xpath
+
+
+Relative Xpath = 
+ways of creating xpath 
+
+1. Tag + attribute and value -  //tag[@=type = 'button']
+
+eg -  //attribute[@type = 'button']
+
+2. Contains method 
+//*[contains(@attribute,'value')]
+//*[contains(@type,'button')] - here type and button is the value fron HTML tag
+
+
+3. Start-with 
+//*[start-with(@attribute, 'value')]
+
+4 text()
+
+For further there are lot more in xpath  - need to read about that 
+ 
+Entering Keyboard button - This is called Keyboard event 
+
+
+------------------------
+.type ('{Enter}')
+
+
+
+
+

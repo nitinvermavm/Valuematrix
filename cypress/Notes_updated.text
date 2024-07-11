@@ -1,0 +1,100 @@
+CypressAutomation
+
+Cypress API Automation Framework
+
+Cypress Introduction
+Pre-requisite - Manual Testing
+
+Automation Testing -
+Cypress - 2 Programming Language - JavaScript and TypeScript Focus - JavaScript Current Version of Cypress - 13+ Pre-requsite -
+Node Module - npm - Node Package Manager
+Editor - VisualStudioCode
+UI - Automation End To End Framework API - Automation End To End Framework
+
+CI-CD Pipeline - Cypress Cloud - Previously - Cypress Dashboard
+
+SCM - GIT -- CircleCI, BitBucket, Azure
+
+Cypress Automation Session Day 2
+Node JS - https://nodejs.org/en/download/source-code
+node --version - To check the version which is installed into your machine.
+
+Cypress - Javascript and Typescript Maven - mvnrepository
+
+Download VS Code Editor - https://code.visualstudio.com/download
+Getting Start with Cypress
+https://www.cypress.io/install - Offical page for downloading cypress.
+npm install --save-dev cypress
+
+npm install cypress
+
+yarn commands
+
+brew - MAC
+
+Update Cypress to Latest Version - UI
+
+Opening Cypress - npx cypress open
+Cypress Automation Session Day 3 -
+To Open Cypress - npx cypress open
+e2e Folder - All the spec file will be visible
+Cypress Inspector
+CSS Selector -- Cypress --- Best Support CSS Selector
+If you are aware about the classname attribute - .classname. ---> .oxd-input.oxd-input--active
+If you are aware about the ID attribute - #id
+If you are aware about attribute and value of that attribute ---> [attribute = 'value']
+If you are aware about attribute and value of that attribute along with tag name ---> input[attribute = 'value']
+If you are aware about classname and tag ---> tag.classname
+If you are aware about ID and tag ---> tag#id
+You can use cypress inspector for getting the CSS Selector
+[class="oxd-form-row"] [class="oxd-form-row"]
+
+Xpath Selector
+https://www.npmjs.com/package/cypress-xpath
+
+Command need to execute - npm install -D cypress-xpath
+
+Plugin which is supported -
+
+ChroPath -
+SelectorHub - https://chromewebstore.google.com/detail/selectorshub/ndgimibanhlabgdgjcpbbndiehljcpfh?hl=en
+Xpath is classified
+
+Relative Xpath - double slash - //*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button
+
+Absolute Xpath - single slash - /html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/button
+
+Relative Xpath -
+Ways of creating Xpath -
+
+Tag, Attribute and Value - //tag[@attribute = 'value'] eg. //button[@type = 'button'] //button[normalize-space()='Add']
+
+Contains() //*[contains(@class,'oxd-text oxd-text--h5' )]
+
+Starts-with() //*[starts-with(@attribute,'value')]
+
+text()
+
+Entering keyboard button
+https://docs.cypress.io/api/commands/type
+
+const app = window.top; if (!app.document.head.querySelector("[data-hide-command-log-request]")) { const style = app.document.createElement("style"); style.innerHTML =".command-name-request, .command-name-xhr { display: none }"; style.setAttribute("data-hide-command-log-request", ""); app.document.head.appendChild(style); }
+
+
+Assertion - For more details refer cypress assertion
+
+hard and soft two types
+
+https://docs.cypress.io/guides/references/assertions
+
+
+1. Implicit Assertion - build in Assertion
+    should 
+    and 
+
+2. Explicit Assertion
+    BDD - Assert
+    TDD - 
+
+-------------------------------------------------------
+
